@@ -3,10 +3,10 @@ body {
     background-color: #f1f1f1;
     height: 100% ;
     margin: 0;
-    padding: 20px;
-    margin-left: 300px;
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    align-items: center;      /* centers vertically */
     text-align: center;
-
   }
 
   .container {
@@ -56,3 +56,4 @@ body {
     border: 2px solid #4CAF50;
     color: #2e7d32;
   }
+
